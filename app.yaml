@@ -2,7 +2,8 @@ runtime: php
 env: flex
 
 runtime_config:
-  runtime_version: "7.3"
+  operating_system: "ubuntu22"
+  runtime_version: "7.4"
   document_root: public
 
 # Ensure we skip ".env", which is only for local development
