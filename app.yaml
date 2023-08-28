@@ -2,6 +2,7 @@ runtime: php
 env: flex
 
 runtime_config:
+  runtime_version: "7.3"
   document_root: public
 
 # Ensure we skip ".env", which is only for local development
