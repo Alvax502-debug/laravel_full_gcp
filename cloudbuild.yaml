@@ -25,5 +25,4 @@ steps:
       fi
 
 - name: 'gcr.io/cloud-builders/npm'
-  entrypoint: 'node'
-  args: ['run', 'prod']
+  args: ['npm', 'run', 'prod']
