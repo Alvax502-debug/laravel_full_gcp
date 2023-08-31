@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/editors',  [
+    \App\Http\Controllers\EditorController::class, 'index'
+    ])->name('editors.index');
+Route::post('/editors', [
+    \App\Http\Controllers\EditorController::class, 'store' ]);
+
+Route::post(
+    '/setup/IXaOonJ3B7', '\App\Http\Controllers\SetupController');

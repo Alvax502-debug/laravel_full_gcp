@@ -27,3 +27,11 @@ env_variables:
     APP_NAME: "GCP App - CODE"
 
     LOG_LEVEL: debug
+
+    DB_DATABASE: db_1
+    DB_USERNAME: root
+    DB_PASSWORD:
+    DB_SOCKET: '/cloudsql/plated-sunup-394607:us-central1:gcp-app-db-instance-1'
+
+beta_settings:
+    cloud_sql_instances: 'plated-sunup-394607:us-central1:gcp-app-db-instance-1'
