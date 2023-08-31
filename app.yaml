@@ -20,8 +20,8 @@ resources:
     disk_size_gb: 100
 
 handlers:
-    - url: /public/css
-      static_dir: css
+    - url: css
+      static_dir: /public/css
 
 env_variables:
     # Put production environment variables here.
