@@ -25,4 +25,4 @@ steps:
       fi
 
 - name: 'gcr.io/cloud-builders/npm'
-  args: ['npm', 'run', 'prod']
+  args: ['run', 'prod']
