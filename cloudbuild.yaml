@@ -30,4 +30,4 @@ steps:
   args: ['run', 'prod']
 
 - name: 'ubuntu'
-  args: ['ls']
+  args: ['ls', '-la', 'public/css']
