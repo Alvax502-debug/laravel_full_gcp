@@ -20,7 +20,7 @@ resources:
     disk_size_gb: 100
 
 handlers:
-    - url: css
+    - url: /css
       static_dir: /public/css
 
 env_variables:
