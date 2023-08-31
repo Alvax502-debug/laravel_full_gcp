@@ -23,4 +23,3 @@ steps:
       else
           echo "PASS: migrations ran successfully"
       fi
-    - npm run dev
