@@ -30,7 +30,7 @@ env_variables:
 
     DB_DATABASE: db_1
     DB_USERNAME: root
-    DB_PASSWORD:
+    DB_PASSWORD: Tito456@
     DB_SOCKET: '/cloudsql/plated-sunup-394607:us-central1:gcp-app-db-instance-1'
 
 beta_settings:
