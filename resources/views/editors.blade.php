@@ -4,7 +4,7 @@
         <title>Coding Editors</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="{{ URL::asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('public' . mix('app.css', 'vendor/log-viewer')) }}" rel="stylesheet" onerror="alert('app.css failed to load. Please refresh the page, re-publish Log Viewer assets, or fix routing for vendor assets.')">
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 py-4 sm:pt-0">
