@@ -21,7 +21,7 @@ resources:
 
 handlers:
     - url: /css
-      static_dir: /public/css
+      static_dir: public/css
 
 env_variables:
     # Put production environment variables here.
