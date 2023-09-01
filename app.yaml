@@ -39,5 +39,19 @@ env_variables:
     DB_PASSWORD: Tito456@
     DB_SOCKET: '/cloudsql/plated-sunup-394607:us-central1:gcp-app-db-instance-1'
 
+handlers:
+  - url: /robots.txt
+    static_files: public/robots.txt
+    upload: public/robots.txt
+  - url: /favicon.ico
+    static_files: public/favicon.ico
+    upload: public/favicon.ico
+  - url: /images
+    static_dir: public/images
+  - url: /js
+    static_dir: public/js
+  - url: /css
+    static_dir: public/css
+
 beta_settings:
     cloud_sql_instances: 'plated-sunup-394607:us-central1:gcp-app-db-instance-1'
